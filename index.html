@@ -34,7 +34,7 @@
           extend: {
             colors: {
               "gradient-color": "#179800",
-              "Secondary-color" : '#EFEBE3',
+              "Secondary-color": "#EFEBE3",
             },
           },
         },
@@ -49,9 +49,11 @@
       }
     </style>
   </head>
-  <body class="sora">
+  <body class="sora relative">
     <!-- Header Section -->
-    <header class=" lg:pt-9 lg:px-36 bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+    <header
+      class="lg:pt-9 lg:px-36 bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]"
+    >
       <!-- navbar -->
       <div
         class="flex items-center justify-between border-b py-3 px-3 border-gradient-color lg:border-none"
@@ -78,7 +80,7 @@
                   /></svg
               ></label>
             </div>
-            <div class="drawer-side ">
+            <div class="drawer-side">
               <label
                 for="my-drawer-4"
                 aria-label="close sidebar"
@@ -96,16 +98,20 @@
               </ul>
             </div>
           </div>
-          <img class="hidden lg:flex lg:mr-80" src="c2-assets/logo-header.png" alt="" />
+          <img
+            class="hidden lg:flex lg:mr-80"
+            src="c2-assets/logo-header.png"
+            alt=""
+          />
         </div>
         <div class="hidden lg:flex flex-1 justify-center">
-          <ul class="menu flex flex-row px-1 text-xl ">
+          <ul class="menu flex flex-row px-1 text-xl">
             <li><a>Product</a></li>
             <li><a>Services</a></li>
             <li><a>Contact us</a></li>
           </ul>
         </div>
-        <div class=" hidden lg:flex gap-9">
+        <div class="hidden lg:flex gap-9">
           <img class="w-6 h-6 my-auto" src="c2-assets/Frame 6.png" alt="" />
           <img class="w-7 h-7 my-auto" src="c2-assets/Group2.png" alt="" />
           <a
@@ -120,15 +126,23 @@
       </div>
       <!-- Banner Section -->
       <section class="mt-11 lg:mt-24">
-        <h1 class="text-4xl lg:text-[56px] font-semibold text-center mx-auto leading-snug">
-          Freshness <span class="text-gradient-color">You Can <br> Count </span> On, Prices You’ll Love!
+        <h1
+          class="text-4xl lg:text-[56px] font-semibold text-center mx-auto leading-snug"
+        >
+          Freshness
+          <span class="text-gradient-color"
+            >You Can <br />
+            Count
+          </span>
+          On, Prices You’ll Love!
         </h1>
         <p class="text-center lg:text-xl mt-4 lg:mt-9">
           Shop your daily essentials at unbeatable prices. From fresh produce to
-          pantry <br> staples, we’ve got you covered every day!
+          pantry <br />
+          staples, we’ve got you covered every day!
         </p>
         <div class="flex justify-center mt-4 lg:mt-9">
-          <img src="c2-assets/hero-vegetables.png" alt="">
+          <img src="c2-assets/hero-vegetables.png" alt="" />
         </div>
       </section>
     </header>
@@ -136,11 +150,15 @@
     <main>
       <!-- Services section -->
       <section class="m-3 lg:m-36">
-        <h3 class="text-2xl lg:text-4xl font-semibold text-gradient-color mb-4 lg:mb-12">Services</h3>
+        <h3
+          class="text-2xl lg:text-4xl font-semibold text-gradient-color mb-4 lg:mb-12"
+        >
+          Services
+        </h3>
         <!-- Services Cards -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-           <!-- First Card -->
-           <div class="card bg-Secondary-color p-8">
+          <!-- First Card -->
+          <div class="card bg-Secondary-color p-8">
             <div class="avatar">
               <div class="w-28 p-5 bg-white rounded-full mx-auto">
                 <img src="c2-assets/service.png" />
@@ -148,14 +166,19 @@
             </div>
             <div class="card-body items-center text-center">
               <h2 class="card-title">24/7 Services</h2>
-              <p class="lg:hidden font-light text-gray-600">We are available around the clock to assist you.</p>
-              <p class="lg:flex hidden font-light text-gray-600">Our team is available round the clock to provide assistance whenever you need it. 
-                Whether it's day or night, we are just a call away to ensure your queries are addressed 
-                promptly and efficiently.</p>
+              <p class="lg:hidden font-light text-gray-600">
+                We are available around the clock to assist you.
+              </p>
+              <p class="lg:flex hidden font-light text-gray-600">
+                Our team is available round the clock to provide assistance
+                whenever you need it. Whether it's day or night, we are just a
+                call away to ensure your queries are addressed promptly and
+                efficiently.
+              </p>
             </div>
           </div>
-           <!-- Second Card -->
-           <div class="card bg-Secondary-color p-8">
+          <!-- Second Card -->
+          <div class="card bg-Secondary-color p-8">
             <div class="avatar">
               <div class="w-28 p-5 bg-white rounded-full mx-auto">
                 <img src="c2-assets/delivery.png" />
@@ -163,205 +186,440 @@
             </div>
             <div class="card-body items-center text-center">
               <h2 class="card-title">Fast Delivery</h2>
-              <p class="lg:hidden font-light text-gray-600">Get your orders delivered quickly and on time.</p>
-              <p class="lg:flex hidden font-light text-gray-600 mb-4">We guarantee swift and reliable delivery, ensuring that your orders reach your 
-                doorstep in the shortest possible time. Our efficient logistics network prioritizes speed without compromising on safety and quality.</p>
+              <p class="lg:hidden font-light text-gray-600">
+                Get your orders delivered quickly and on time.
+              </p>
+              <p class="lg:flex hidden font-light text-gray-600 mb-4">
+                We guarantee swift and reliable delivery, ensuring that your
+                orders reach your doorstep in the shortest possible time. Our
+                efficient logistics network prioritizes speed without
+                compromising on safety and quality.
+              </p>
             </div>
           </div>
-           <!-- Third Card -->
-           <div class="card bg-Secondary-color p-8">
+          <!-- Third Card -->
+          <div class="card bg-Secondary-color p-8">
             <div class="avatar">
               <div class="w-28 p-5 bg-white rounded-full mx-auto">
                 <img src="c2-assets/healthy.png" />
               </div>
             </div>
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Healthy Products </h2>
-              <p class="lg:hidden font-light text-gray-600">We offer organic and high-quality healthy products.</p>
-              <p class="lg:flex hidden font-light text-gray-600">We take pride in offering high-quality, organic, and nutritious products. 
-                Our carefully sourced ingredients ensure that you and your family 
-                enjoy a healthier lifestyle with every purchase.</p>
+              <h2 class="card-title">Healthy Products</h2>
+              <p class="lg:hidden font-light text-gray-600">
+                We offer organic and high-quality healthy products.
+              </p>
+              <p class="lg:flex hidden font-light text-gray-600">
+                We take pride in offering high-quality, organic, and nutritious
+                products. Our carefully sourced ingredients ensure that you and
+                your family enjoy a healthier lifestyle with every purchase.
+              </p>
             </div>
           </div>
         </div>
       </section>
       <!-- Popular Products Section -->
       <section class="p-3 lg:p-36 bg-Secondary-color">
-        <h1 class="text-2xl lg:text-4xl font-semibold text-gradient-color mb-5 lg:mb-12">Popular Products</h1>
+        <h1
+          class="text-2xl lg:text-4xl font-semibold text-gradient-color mb-5 lg:mb-12"
+        >
+          Popular Products
+        </h1>
         <div class="flex flex-col lg:flex-row gap-6">
-          <div 
-          style="background: url(./c2-assets/vegetable-offer.png), linear-gradient(135deg, #1ebd02e8 40%, rgb(226, 247, 214));  
-          background-repeat: no-repeat; background-position: bottom right;"
-           class="lg:w-1/3 h-[339px] lg:h-[402px] bg-green-400 rounded-lg">
-             <div class="mt-7 lg:mt-16 ml-6 lg:ml-10">
+          <div
+            style="
+              background: url(./c2-assets/vegetable-offer.png),
+                linear-gradient(135deg, #1ebd02e8 40%, rgb(226, 247, 214));
+              background-repeat: no-repeat;
+              background-position: bottom right;
+            "
+            class="lg:w-1/3 h-[339px] lg:h-[402px] bg-green-400 rounded-lg"
+          >
+            <div class="mt-7 lg:mt-16 ml-6 lg:ml-10">
               <h3 class="text-2xl lg:text-3xl font-bold text-white">30% Off</h3>
-             <p class="leading-snug my-2 lg:my-5 text-xs lg:text-base">Get fresh vegetables at a discounted price. <br> Don't miss out on this healthy deal!</p>
-             <button class="btn lg:px-10 lg:text-xl">Bay Now</button>
-             </div>
+              <p class="leading-snug my-2 lg:my-5 text-xs lg:text-base">
+                Get fresh vegetables at a discounted price. <br />
+                Don't miss out on this healthy deal!
+              </p>
+              <button class="btn lg:px-10 lg:text-xl">Bay Now</button>
+            </div>
           </div>
-            <!-- All Products -->
-               <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-6 w-full lg:w-2/3">
-                <!-- Product 1 -->
-                <div class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg">
-                  <img class="w-14 lg:w-[86px]" src="./c2-assets/onion.png" alt="">
-                  <div>
-                    <p class="flex items-center gap-1 lg:gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3 lg:size-6 text-[#FFC107]">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                      </svg>
-                      <span class="text-[10px] lg:text-base">4.5</span>
-                    </p>
-                    <h1 class="text-xs lg:text-xl font-medium">Onion 1 KG</h1>
-                    <p class="text-[10px] lg:text-base font-medium">$39.99</p>
-                  </div>
-                 </div>
-                <!-- Product 2 -->
-                <div class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg">
-                  <img class="w-14 lg:w-[86px]" src="./c2-assets/tomato.png" alt="">
-                  <div>
-                    <p class="flex items-center gap-1 lg:gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3 lg:size-6 text-[#FFC107]">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                      </svg>
-                      <span class="text-[10px] lg:text-base">4.5</span>
-                    </p>
-                    <h1 class="text-xs lg:text-xl font-medium">Tomato 500 g </h1>
-                    <p class="text-[10px] lg:text-base font-medium">$39.99</p>
-                  </div>
-                 </div>
-                <!-- Product 3 -->
-                <div class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg">
-                  <img class="w-14 lg:w-[86px]" src="./c2-assets/potato.png" alt="">
-                  <div>
-                    <p class="flex items-center gap-1 lg:gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3 lg:size-6 text-[#FFC107]">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                      </svg>
-                      <span class="text-[10px] lg:text-base">4.5</span>
-                    </p>
-                    <h1 class="text-xs lg:text-xl font-medium">Onion 1 KG</h1>
-                    <p class="text-[10px] lg:text-base font-medium">$39.99</p>
-                  </div>
-                 </div>
-                <!-- Product 4 -->
-                <div class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg">
-                  <img class="w-14 lg:w-[86px]" src="./c2-assets/tomato.png" alt="">
-                  <div>
-                    <p class="flex items-center gap-1 lg:gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3 lg:size-6 text-[#FFC107]">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                      </svg>
-                      <span class="text-[10px] lg:text-base">4.5</span>
-                    </p>
-                    <h1 class="text-xs lg:text-xl font-medium">Tomato 500 g</h1>
-                    <p class="text-[10px] lg:text-base font-medium">$39.99</p>
-                  </div>
-                 </div>
-                <!-- Product 5 -->
-                <div class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg">
-                  <img class="w-14 lg:w-[86px]" src="./c2-assets/onion.png" alt="">
-                  <div>
-                    <p class="flex items-center gap-1 lg:gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3 lg:size-6 text-[#FFC107]">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                      </svg>
-                      <span class="text-[10px] lg:text-base">4.5</span>
-                    </p>
-                    <h1 class="text-xs lg:text-xl font-medium">Onion 1 KG</h1>
-                    <p class="text-[10px] lg:text-base font-medium">$39.99</p>
-                  </div>
-                 </div>
-                <!-- Product 6 -->
-                <div class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg">
-                  <img class="w-14 lg:w-[86px]" src="./c2-assets/tomato.png" alt="">
-                  <div>
-                    <p class="flex items-center gap-1 lg:gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3 lg:size-6 text-[#FFC107]">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                      </svg>
-                      <span class="text-[10px] lg:text-base">4.5</span>
-                    </p>
-                    <h1 class="text-xs lg:text-xl font-medium">Tomato 500 g</h1>
-                    <p class="text-[10px] lg:text-base font-medium">$39.99</p>
-                  </div>
-                 </div>
-                <!-- Product 7 -->
-                <div class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg">
-                  <img class="w-14 lg:w-[86px]" src="./c2-assets/tomato.png" alt="">
-                  <div>
-                    <p class="flex items-center gap-1 lg:gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3 lg:size-6 text-[#FFC107]">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                      </svg>
-                      <span class="text-[10px] lg:text-base">4.5</span>
-                    </p>
-                    <h1 class="text-xs lg:text-xl font-medium">Tomato 500 g</h1>
-                    <p class="text-[10px] lg:text-base font-medium">$39.99</p>
-                  </div>
-                 </div>
-                <!-- Product 8 -->
-                <div class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg">
-                  <img class="w-14 lg:w-[86px]" src="./c2-assets/potato.png" alt="">
-                  <div>
-                    <p class="flex items-center gap-1 lg:gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3 lg:size-6 text-[#FFC107]">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                      </svg>
-                      <span class="text-[10px] lg:text-base">4.5</span>
-                    </p>
-                    <h1 class="text-xs lg:text-xl font-medium">Potato 1 KG</h1>
-                    <p class="text-[10px] lg:text-base font-medium">$39.99</p>
-                  </div>
-                 </div>
-                <!-- Product 9 -->
-                <div class="hidden lg:flex items-center gap-4 bg-white lg:p-4 rounded-lg">
-                  <img class="w-14 lg:w-[86px]" src="./c2-assets/potato.png" alt="">
-                  <div>
-                    <p class="flex items-center gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-[#FFC107]">
-                        <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                      </svg>
-                      <span>4.5</span>
-                    </p>
-                    <h1 class="text-xl font-medium">Potato 1 KG</h1>
-                    <p class="font-medium">$39.99</p>
-                  </div>
-                 </div>
-               </div>
+          <!-- All Products -->
+          <div
+            class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-6 w-full lg:w-2/3"
+          >
+            <!-- Product 1 -->
+            <div
+              class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg"
+            >
+              <img
+                class="w-14 lg:w-[86px]"
+                src="./c2-assets/onion.png"
+                alt=""
+              />
+              <div>
+                <p class="flex items-center gap-1 lg:gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-3 lg:size-6 text-[#FFC107]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-[10px] lg:text-base">4.5</span>
+                </p>
+                <h1 class="text-xs lg:text-xl font-medium">Onion 1 KG</h1>
+                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+              </div>
+            </div>
+            <!-- Product 2 -->
+            <div
+              class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg"
+            >
+              <img
+                class="w-14 lg:w-[86px]"
+                src="./c2-assets/tomato.png"
+                alt=""
+              />
+              <div>
+                <p class="flex items-center gap-1 lg:gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-3 lg:size-6 text-[#FFC107]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-[10px] lg:text-base">4.5</span>
+                </p>
+                <h1 class="text-xs lg:text-xl font-medium">Tomato 500 g</h1>
+                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+              </div>
+            </div>
+            <!-- Product 3 -->
+            <div
+              class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg"
+            >
+              <img
+                class="w-14 lg:w-[86px]"
+                src="./c2-assets/potato.png"
+                alt=""
+              />
+              <div>
+                <p class="flex items-center gap-1 lg:gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-3 lg:size-6 text-[#FFC107]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-[10px] lg:text-base">4.5</span>
+                </p>
+                <h1 class="text-xs lg:text-xl font-medium">Onion 1 KG</h1>
+                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+              </div>
+            </div>
+            <!-- Product 4 -->
+            <div
+              class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg"
+            >
+              <img
+                class="w-14 lg:w-[86px]"
+                src="./c2-assets/tomato.png"
+                alt=""
+              />
+              <div>
+                <p class="flex items-center gap-1 lg:gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-3 lg:size-6 text-[#FFC107]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-[10px] lg:text-base">4.5</span>
+                </p>
+                <h1 class="text-xs lg:text-xl font-medium">Tomato 500 g</h1>
+                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+              </div>
+            </div>
+            <!-- Product 5 -->
+            <div
+              class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg"
+            >
+              <img
+                class="w-14 lg:w-[86px]"
+                src="./c2-assets/onion.png"
+                alt=""
+              />
+              <div>
+                <p class="flex items-center gap-1 lg:gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-3 lg:size-6 text-[#FFC107]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-[10px] lg:text-base">4.5</span>
+                </p>
+                <h1 class="text-xs lg:text-xl font-medium">Onion 1 KG</h1>
+                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+              </div>
+            </div>
+            <!-- Product 6 -->
+            <div
+              class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg"
+            >
+              <img
+                class="w-14 lg:w-[86px]"
+                src="./c2-assets/tomato.png"
+                alt=""
+              />
+              <div>
+                <p class="flex items-center gap-1 lg:gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-3 lg:size-6 text-[#FFC107]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-[10px] lg:text-base">4.5</span>
+                </p>
+                <h1 class="text-xs lg:text-xl font-medium">Tomato 500 g</h1>
+                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+              </div>
+            </div>
+            <!-- Product 7 -->
+            <div
+              class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg"
+            >
+              <img
+                class="w-14 lg:w-[86px]"
+                src="./c2-assets/tomato.png"
+                alt=""
+              />
+              <div>
+                <p class="flex items-center gap-1 lg:gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-3 lg:size-6 text-[#FFC107]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-[10px] lg:text-base">4.5</span>
+                </p>
+                <h1 class="text-xs lg:text-xl font-medium">Tomato 500 g</h1>
+                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+              </div>
+            </div>
+            <!-- Product 8 -->
+            <div
+              class="flex items-center gap-2 lg:gap-4 bg-white p-2 lg:p-4 rounded-lg"
+            >
+              <img
+                class="w-14 lg:w-[86px]"
+                src="./c2-assets/potato.png"
+                alt=""
+              />
+              <div>
+                <p class="flex items-center gap-1 lg:gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-3 lg:size-6 text-[#FFC107]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="text-[10px] lg:text-base">4.5</span>
+                </p>
+                <h1 class="text-xs lg:text-xl font-medium">Potato 1 KG</h1>
+                <p class="text-[10px] lg:text-base font-medium">$39.99</p>
+              </div>
+            </div>
+            <!-- Product 9 -->
+            <div
+              class="hidden lg:flex items-center gap-4 bg-white lg:p-4 rounded-lg"
+            >
+              <img
+                class="w-14 lg:w-[86px]"
+                src="./c2-assets/potato.png"
+                alt=""
+              />
+              <div>
+                <p class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="size-6 text-[#FFC107]"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span>4.5</span>
+                </p>
+                <h1 class="text-xl font-medium">Potato 1 KG</h1>
+                <p class="font-medium">$39.99</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Arrival & Offers Section -->
-      <section class="p-3 lg:p-36">
-        <h1 class="text-2xl lg:text-4xl font-semibold text-gradient-color mb-5 lg:mb-12">Arrival & Offers</h1>
+      <section class="p-3 lg:px-36 lg:pt-36 pb-[282px] lg:pb-[389px]">
+        <h1
+          class="text-2xl lg:text-4xl font-semibold text-gradient-color mb-5 lg:mb-12"
+        >
+          Arrival & Offers
+        </h1>
         <div class="poppins flex flex-col lg:flex-row gap-5">
-          <div class="flex justify-between pt-3 lg:pt-9 rounded-lg lg:rounded-3xl bg-[#115414] px-2 lg:px-10 lg:w-[60%]">
+          <div
+            class="flex justify-between pt-3 lg:pt-9 rounded-lg lg:rounded-3xl bg-[#115414] px-2 lg:px-10 lg:w-[60%]"
+          >
             <div>
-               <img class="w-28 lg:w-[246.63px]" src="c2-assets/dawat-logo.png" alt="">
-               <button class="btn text-xs lg:text-xl bg-[#63B76D] font-normal border-none lg:px-10 text-white mt-4 lg:mt-8 mb-2 lg:mb-7">Cook Exotic Dishes</button>
-               <h3 class="text-[22px] lg:text-[40px] text-white">UP to <span class="font-bold">20% OFF</span></h3>
-              </div>
-              <div>
-              <img class="w-[148px] lg:w-[320.82px]" src="c2-assets/dawat-mock-up.png" alt="">
+              <img
+                class="w-28 lg:w-[246.63px]"
+                src="c2-assets/dawat-logo.png"
+                alt=""
+              />
+              <button
+                class="btn text-xs lg:text-xl bg-[#63B76D] font-normal border-none lg:px-10 text-white mt-4 lg:mt-8 mb-2 lg:mb-7"
+              >
+                Cook Exotic Dishes
+              </button>
+              <h3 class="text-[22px] lg:text-[40px] text-white">
+                UP to <span class="font-bold">20% OFF</span>
+              </h3>
+            </div>
+            <div>
+              <img
+                class="w-[148px] lg:w-[320.82px]"
+                src="c2-assets/dawat-mock-up.png"
+                alt=""
+              />
             </div>
           </div>
-          <div class="flex justify-between pt-3 lg:pt-9 bg-[#102861] px-2 lg:px-10 lg:w-[40%] rounded-lg lg:rounded-3xl">
+          <div
+            class="flex justify-between pt-3 lg:pt-9 bg-[#102861] px-2 lg:px-10 lg:w-[40%] rounded-lg lg:rounded-3xl"
+          >
             <div>
-               <img class="w-16 lg:w-[93.57px]" src="c2-assets/india-gate-logo.png" alt="">
-               <button class="btn text-xs lg:text-xl bg-[#2A4D97] font-normal border-none lg:px-10 text-white mt-1 lg:mt-3 mb-2 lg:mb-6">World’s No.1 Rice</button>
-               <h3 class="text-[22px] lg:text-[40px] text-white">UP to <span class="font-bold">20% OFF</span></h3>
-              </div>
-              <div>
-              <img class="w-28 lg:w-44" src="c2-assets/india-gate-mock-up.png" alt="">
+              <img
+                class="w-16 lg:w-[93.57px]"
+                src="c2-assets/india-gate-logo.png"
+                alt=""
+              />
+              <button
+                class="btn text-xs lg:text-xl bg-[#2A4D97] font-normal border-none lg:px-10 text-white mt-1 lg:mt-3 mb-2 lg:mb-6"
+              >
+                World’s No.1 Rice
+              </button>
+              <h3 class="text-[22px] lg:text-[40px] text-white">
+                UP to <span class="font-bold">20% OFF</span>
+              </h3>
+            </div>
+            <div>
+              <img
+                class="w-28 lg:w-44"
+                src="c2-assets/india-gate-mock-up.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </section>
-      <!-- Grocery News section -->
-      <section></section>
       <!-- Client Says -->
       <section></section>
+      <!-- Grocery News section -->
+      <section class="lg:flex bg-Secondary-color py-14 items-center rounded-2xl absolute w-[90%] mx-auto lg:w-[87%]
+      lg:bottom-[428px] md:bottom-[415px] bottom-[426px] left-4 md:left-8 lg:left-[140px]">
+        <div class="flex-1 items-center flex justify-center">
+           <img class="w-[232px] lg:w-[442px]" src="c2-assets/vegetable-busket.png" alt="">
+        </div>
+        <div class="flex-1 flex flex-col items-center lg:items-start ">
+          <h1 class="text-2xl lg:text-4xl font-semibold">Get Grocery News!</h1>
+           <p class="text-sm mx-5 lg:text-base mt-3 lg:mt-6 mb-5 lg:mb-8 text-center lg:text-left">Exclusive training tips, ticks, product deals and more.</p>
+           <input type="text" placeholder="Enter email...." class="input w-full max-w-xs lg:max-w-sm placeholder:text-sm" /> <br>
+           <button class="btn bg-gradient-color text-base font-normal px-8 text-white lg:mt-9">Subscribe</button>
+        </div>
+      </section>
     </main>
     <!-- Footer Section -->
-    <footer></footer>
+    <footer class="footer bg-gradient-color text-base-content px-5 lg:px-36 pb-12 lg:pb-36 pt-[281px] lg:pt-[370px]">
+      <div class="flex flex-col lg:flex-row justify-start lg:justify-between gap-9 w-full items-start lg:items-end">
+        <nav>
+          <img class="w-[100px] lg:w-[154.04px]" src="c2-assets/logo-footer.png" alt="" />
+          <p class="text-[#EFEBE3] text-sm lg:text-base lg:w-[426px] mt-3">Delivering excellence with top-notch products and services, ensuring customer satisfaction every step of the way.</p>
+        </nav>
+        <nav class="flex flex-col text-base lg:text-xl text-[#EFEBE3] space-y-5 lg:space-y-8">
+          <a class="cursor-pointer">Product</a>
+          <a class="cursor-pointer">Services</a>
+          <a class="cursor-pointer">Contact us</a>
+        </nav>
+        <nav>
+          <h6 class="text-[#EFEBE3] text-sm lg:text-base mb-2 lg:mb-4">Follow Us</h6>
+          <div class="grid grid-flow-col items-center gap-4">
+            <a>
+              <i class="fa-brands fa-facebook fa-2xl cursor-pointer" style="color: #ffffff;"></i>
+            </a>
+            <a>
+              <i class="fa-brands fa-instagram fa-2xl cursor-pointer" style="color: #ffffff;"></i>
+            </a>
+            <a>
+              <img class="w-7 cursor-pointer" src="c2-assets/Vector (1).png" alt=""></i>
+            </a>
+            <a>
+              <i class="fa-brands fa-youtube fa-2xl cursor-pointer" style="color: #ffffff;"></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
