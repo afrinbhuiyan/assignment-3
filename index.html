@@ -34,6 +34,7 @@
           extend: {
             colors: {
               "gradient-color": "#179800",
+              "Secondary-color" : '#EFEBE3',
             },
           },
         },
@@ -56,10 +57,10 @@
         class="flex items-center justify-between border-b py-3 px-3 border-gradient-color lg:border-none"
       >
         <img class="lg:hidden" src="c2-assets/Group.png" alt="" />
-        <div class="lg:navbar-start">
+        <div class="">
           <div class="drawer drawer-end">
             <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
-            <div class="drawer-content">
+            <div class="drawer-content lg:hidden">
               <!-- Page content here -->
               <label for="my-drawer-4" class="drawer-button lg:hidden"
                 ><svg
@@ -77,7 +78,7 @@
                   /></svg
               ></label>
             </div>
-            <div class="drawer-side">
+            <div class="drawer-side ">
               <label
                 for="my-drawer-4"
                 aria-label="close sidebar"
@@ -95,16 +96,16 @@
               </ul>
             </div>
           </div>
-          <img class="hidden lg:flex" src="c2-assets/logo-header.png" alt="" />
+          <img class="hidden lg:flex lg:mr-80" src="c2-assets/logo-header.png" alt="" />
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-xl">
+        <div class="hidden lg:flex flex-1 justify-center">
+          <ul class="menu flex flex-row px-1 text-xl ">
             <li><a>Product</a></li>
             <li><a>Services</a></li>
             <li><a>Contact us</a></li>
           </ul>
         </div>
-        <div class="navbar-end hidden lg:flex gap-9">
+        <div class=" hidden lg:flex gap-9">
           <img class="w-6 h-6 my-auto" src="c2-assets/Frame 6.png" alt="" />
           <img class="w-7 h-7 my-auto" src="c2-assets/Group2.png" alt="" />
           <a
@@ -134,7 +135,56 @@
     <!-- Main Section -->
     <main>
       <!-- Services section -->
-      <section></section>
+      <section class="m-3 lg:m-36">
+        <h3 class="text-2xl lg:text-4xl font-semibold text-gradient-color mb-4 lg:mb-12">Services</h3>
+        <!-- Services Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+           <!-- First Card -->
+           <div class="card bg-Secondary-color p-8">
+            <div class="avatar">
+              <div class="w-28 p-5 bg-white rounded-full mx-auto">
+                <img src="c2-assets/service.png" />
+              </div>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">24/7 Services</h2>
+              <p class="lg:hidden font-light text-gray-600">We are available around the clock to assist you.</p>
+              <p class="lg:flex hidden font-light text-gray-600">Our team is available round the clock to provide assistance whenever you need it. 
+                Whether it's day or night, we are just a call away to ensure your queries are addressed 
+                promptly and efficiently.</p>
+            </div>
+          </div>
+           <!-- Second Card -->
+           <div class="card bg-Secondary-color p-8">
+            <div class="avatar">
+              <div class="w-28 p-5 bg-white rounded-full mx-auto">
+                <img src="c2-assets/delivery.png" />
+              </div>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Fast Delivery</h2>
+              <p class="lg:hidden font-light text-gray-600">Get your orders delivered quickly and on time.</p>
+              <p class="lg:flex hidden font-light text-gray-600 mb-4">We guarantee swift and reliable delivery, ensuring that your orders reach your 
+                doorstep in the shortest possible time. Our efficient logistics network prioritizes speed without compromising on safety and quality.</p>
+            </div>
+          </div>
+           <!-- Third Card -->
+           <div class="card bg-Secondary-color p-8">
+            <div class="avatar">
+              <div class="w-28 p-5 bg-white rounded-full mx-auto">
+                <img src="c2-assets/healthy.png" />
+              </div>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Healthy Products </h2>
+              <p class="lg:hidden font-light text-gray-600">We offer organic and high-quality healthy products.</p>
+              <p class="lg:flex hidden font-light text-gray-600">We take pride in offering high-quality, organic, and nutritious products. 
+                Our carefully sourced ingredients ensure that you and your family 
+                enjoy a healthier lifestyle with every purchase.</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Popular Products Section -->
       <section></section>
       <!-- Arrival & Offers Section -->
