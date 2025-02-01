@@ -47,6 +47,27 @@
       .poppins {
         font-family: "Poppins", serif;
       }
+      @keyframes fadeIn {
+      0% {
+      opacity: 0;
+      transform: translateY(20px);
+      }
+      100% {
+      opacity: 1;
+      transform: translateY(0);
+      }
+      }
+      .animate-fade-in {
+        animation: fadeIn 1.6s ease-in-out ;
+      }
+
+      .animation-delay-1 {
+           animation-delay: 0.3s;
+      }
+
+      .animation-delay-2 {
+        animation-delay: 0.6s;
+      }
     </style>
   </head>
   <body class="sora relative">
@@ -127,7 +148,7 @@
       <!-- Banner Section -->
       <section class="mt-11 lg:mt-24">
         <h1
-          class="text-4xl lg:text-[56px] font-semibold text-center mx-auto leading-snug"
+          class="text-4xl lg:text-[56px] font-semibold text-center mx-auto leading-snug animate-fade-in"
         >
           Freshness
           <span class="text-gradient-color"
@@ -136,12 +157,12 @@
           </span>
           On, Prices You’ll Love!
         </h1>
-        <p class="text-center lg:text-xl mt-4 lg:mt-9">
+        <p class="text-center lg:text-xl mt-4 lg:mt-9 animate-fade-in animation-delay-1">
           Shop your daily essentials at unbeatable prices. From fresh produce to
           pantry <br />
           staples, we’ve got you covered every day!
         </p>
-        <div class="flex justify-center mt-4 lg:mt-9">
+        <div class="flex justify-center mt-4 lg:mt-9 animate-fade-in animation-delay-2">
           <img src="c2-assets/hero-vegetables.png" alt="" />
         </div>
       </section>
@@ -649,7 +670,7 @@
                 alt=""
               />
               <button
-                class="btn text-xs lg:text-xl bg-[#63B76D] font-normal border-none lg:px-10 text-white mt-4 lg:mt-8 mb-2 lg:mb-7"
+                class="btn text-xs lg:text-xl bg-[#63B76D] font-normal border-none lg:px-10 text-white mt-4 lg:mt-8 mb-2 lg:mb-7 hover:bg-[#4d9655]"
               >
                 Cook Exotic Dishes
               </button>
@@ -675,7 +696,7 @@
                 alt=""
               />
               <button
-                class="btn text-xs lg:text-xl bg-[#2A4D97] font-normal border-none lg:px-10 text-white mt-1 lg:mt-3 mb-2 lg:mb-6"
+                class="btn text-xs lg:text-xl bg-[#2A4D97] font-normal border-none lg:px-10 text-white mt-1 lg:mt-3 mb-2 lg:mb-6 hover:bg-[#213c75]"
               >
                 World’s No.1 Rice
               </button>
@@ -703,7 +724,7 @@
           <h1 class="text-2xl lg:text-4xl font-semibold">Get Grocery News!</h1>
            <p class="text-sm mx-5 lg:mx-0 lg:text-base mt-3 lg:mt-6 mb-5 lg:mb-8 text-center lg:text-left">Exclusive training tips, ticks, product deals and more.</p>
            <input type="text" placeholder="Enter email...." class="input w-full max-w-xs lg:max-w-sm placeholder:text-sm" /> <br>
-           <button class="btn bg-gradient-color text-base font-normal px-8 text-white lg:mt-9">Subscribe</button>
+           <button class="btn bg-gradient-color hover:bg-green-700 text-base font-normal px-8 text-white lg:mt-9">Subscribe</button>
         </div>
       </section>
     </main>
